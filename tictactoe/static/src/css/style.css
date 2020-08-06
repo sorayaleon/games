@@ -1,0 +1,59 @@
+/*
+    Author: Soraya León <sorayaleongon@gmail.com>
+                        <https://github.com/sorayaleon/>
+                        <https://twitter.com/sorayaleongon>
+                        <https://www.linkedin.com/in/sorayaleon/>
+*/
+
+@font-face {
+    font-family: 'caveat';
+    src: url('static/src/fonts/caveat/Caveat-Bold.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-image: url("../img/pizarra.jpg");
+    background-size: 100%;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: "caveat", cursive;
+    color: ghostwhite;
+    margin-bottom: 70px;
+}
+
+table {
+    margin: auto;
+    background-color: transparent;
+    border-collapse: collapse;
+}
+
+table tr:first-child td {
+    border-top: none;
+}
+
+table tr:last-child td {
+    border-bottom: none;
+}
+
+table tr td:first-child {
+    border-left: none;
+}
+
+table tr td:last-child {
+    border-right: none;
+}
+
+td {
+    border: 6px solid ghostwhite;
+    height: 100px;
+    width: 100px;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
